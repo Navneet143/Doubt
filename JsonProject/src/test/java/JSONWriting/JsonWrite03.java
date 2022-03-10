@@ -29,14 +29,7 @@ public class JsonWrite03 {
 		innerobj.put("Age", "24");
 		arr.add(innerobj);
 		
-		System.out.println(arr);
-// 		innerobj.clear();
-		
-// 		innerobj.put("FirstName", "Peter");
-// 		innerobj.put("LastName", "Desuja");
-// 		innerobj.put("Age", "27");
-// 		arr.add(innerobj);
-		
+		System.out.println(arr);		
 		JSONObject innerobj1= new JSONObject();
 		
 		innerobj1.put("FirstName", "Peter");
@@ -55,5 +48,4 @@ public class JsonWrite03 {
 		Path= "src\\test\\java\\JSONWriting\\data1.yml";
 		insertdata(obj,Path);
 	}
-
 }
