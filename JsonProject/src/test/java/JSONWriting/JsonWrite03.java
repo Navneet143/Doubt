@@ -30,12 +30,12 @@ public class JsonWrite03 {
 		arr.add(innerobj);
 		
 		System.out.println(arr);
-		//innerobj.clear();
+		innerobj.clear();
 		
-//		innerobj.put("FirstName", "Peter");
-//		innerobj.put("LastName", "Desuja");
-//		innerobj.put("Age", "27");
-//		arr.add(innerobj);
+		innerobj.put("FirstName", "Peter");
+		innerobj.put("LastName", "Desuja");
+		innerobj.put("Age", "27");
+		arr.add(innerobj);
 		
 		JSONObject innerobj1= new JSONObject();
 		
