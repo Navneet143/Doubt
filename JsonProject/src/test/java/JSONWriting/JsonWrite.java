@@ -31,12 +31,12 @@ public class JsonWrite {
 		
 		System.out.println(innerobj);
 		System.out.println(arr);
-		//innerobj.clear();
+		innerobj.clear();
 		
-//		innerobj.put("FirstName", "Peter");
-//		innerobj.put("LastName", "Desuja");
-//		innerobj.put("Age", "27");
-//		arr.add(innerobj);
+		innerobj.put("FirstName", "Peter");
+		innerobj.put("LastName", "Desuja");
+		innerobj.put("Age", "27");
+		arr.add(innerobj);
 		
 		System.out.println(innerobj);
 		System.out.println(arr);
